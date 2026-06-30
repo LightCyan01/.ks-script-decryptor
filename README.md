@@ -71,3 +71,4 @@ Standard KAG3. Example:
   
 - Kirikiroid2 XOR-key write-up  
   https://github.com/zeas2/Kirikiroid2_patch/issues/31
+
