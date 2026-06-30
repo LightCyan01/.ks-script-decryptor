@@ -28,8 +28,8 @@ python3 decrypt_ks.py (Folder)/0_0408.ks
 python3 decrypt_ks.py (Folder)/0_0408.ks out.ks
 
 # a whole folder, recursive, in parallel
-python3 decrypt_ks.py --dir Data --out (Folder)/Data
-python3 decrypt_ks.py --dir Adult --out (Folder)/Adult -j 8
+python3 decrypt_ks.py --dir "(Folder)" --out "(Folder)/Data"
+python3 decrypt_ks.py --dir "(Folder)" --out "(Folder)/Adult" -j 8
 # -j is the number of parallel worker processes.
 
 # apply a known 31-byte key instead of cracking (hex, 62 chars)
